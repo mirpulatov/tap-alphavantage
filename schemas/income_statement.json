@@ -1,0 +1,196 @@
+{"$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+      "symbol": {"type":  "string"} ,
+      "annualReports": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "fiscalDateEnding": {
+              "type": "string"
+            },
+            "reportedCurrency": {
+              "type": "string"
+            },
+            "totalRevenue": {
+              "type": "string"
+            },
+            "totalOperatingExpense": {
+              "type": "string"
+            },
+            "costOfRevenue": {
+              "type": "string"
+            },
+            "grossProfit": {
+              "type": "string"
+            },
+            "ebit": {
+              "type": "string"
+            },
+            "netIncome": {
+              "type": "string"
+            },
+            "researchAndDevelopment": {
+              "type": "string"
+            },
+            "effectOfAccountingCharges": {
+              "type": "string"
+            },
+            "incomeBeforeTax": {
+              "type": "string"
+            },
+            "minorityInterest": {
+              "type": "string"
+            },
+            "sellingGeneralAdministrative": {
+              "type": "string"
+            },
+            "otherNonOperatingIncome": {
+              "type": "string"
+            },
+            "operatingIncome": {
+              "type": "string"
+            },
+            "otherOperatingExpense": {
+              "type": "string"
+            },
+            "interestExpense": {
+              "type": "string"
+            },
+            "taxProvision": {
+              "type": "string"
+            },
+            "interestIncome": {
+              "type": "string"
+            },
+            "netInterestIncome": {
+              "type": "string"
+            },
+            "extraordinaryItems": {
+              "type": "string"
+            },
+            "nonRecurring": {
+              "type": "string"
+            },
+            "otherItems": {
+              "type": "string"
+            },
+            "incomeTaxExpense": {
+              "type": "string"
+            },
+            "totalOtherIncomeExpense": {
+              "type": "string"
+            },
+            "discontinuedOperations": {
+              "type": "string"
+            },
+            "netIncomeFromContinuingOperations": {
+              "type": "string"
+            },
+            "netIncomeApplicableToCommonShares": {
+              "type": "string"
+            },
+            "preferredStockAndOtherAdjustments": {
+              "type": "string"
+            }
+          }
+        }
+      },
+    "quarterlyReports": {
+      "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "fiscalDateEnding": {
+              "type": "string"
+            },
+            "reportedCurrency": {
+              "type": "string"
+            },
+            "totalRevenue": {
+              "type": "string"
+            },
+            "totalOperatingExpense": {
+              "type": "string"
+            },
+            "costOfRevenue": {
+              "type": "string"
+            },
+            "grossProfit": {
+              "type": "string"
+            },
+            "ebit": {
+              "type": "string"
+            },
+            "netIncome": {
+              "type": "string"
+            },
+            "researchAndDevelopment": {
+              "type": "string"
+            },
+            "effectOfAccountingCharges": {
+              "type": "string"
+            },
+            "incomeBeforeTax": {
+              "type": "string"
+            },
+            "minorityInterest": {
+              "type": "string"
+            },
+            "sellingGeneralAdministrative": {
+              "type": "string"
+            },
+            "otherNonOperatingIncome": {
+              "type": "string"
+            },
+            "operatingIncome": {
+              "type": "string"
+            },
+            "otherOperatingExpense": {
+              "type": "string"
+            },
+            "interestExpense": {
+              "type": "string"
+            },
+            "taxProvision": {
+              "type": "string"
+            },
+            "interestIncome": {
+              "type": "string"
+            },
+            "netInterestIncome": {
+              "type": "string"
+            },
+            "extraordinaryItems": {
+              "type": "string"
+            },
+            "nonRecurring": {
+              "type": "string"
+            },
+            "otherItems": {
+              "type": "string"
+            },
+            "incomeTaxExpense": {
+              "type": "string"
+            },
+            "totalOtherIncomeExpense": {
+              "type": "string"
+            },
+            "discontinuedOperations": {
+              "type": "string"
+            },
+            "netIncomeFromContinuingOperations": {
+              "type": "string"
+            },
+            "netIncomeApplicableToCommonShares": {
+              "type": "string"
+            },
+            "preferredStockAndOtherAdjustments": {
+              "type": "string"
+            }
+          }
+        }
+      }
+  }
+}
