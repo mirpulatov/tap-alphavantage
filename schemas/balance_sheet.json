@@ -1,0 +1,328 @@
+{"$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+      "symbol": {"type":  "string"} ,
+      "annualReports": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "fiscalDateEnding": {
+              "type": "string"
+            },
+            "reportedCurrency": {
+              "type": "string"
+            },
+            "totalAssets": {
+              "type": "string"
+            },
+            "intangibleAssets": {
+              "type": "string"
+            },
+            "earningAssets": {
+              "type": "string"
+            },
+            "otherCurrentAssets": {
+              "type": "string"
+            },
+            "totalLiabilities": {
+              "type": "string"
+            },
+            "totalShareholderEquity": {
+              "type": "string"
+            },
+            "deferredLongTermLiabilities": {
+              "type": "string"
+            },
+            "otherCurrentLiabilities": {
+              "type": "string"
+            },
+            "commonStock": {
+              "type": "string"
+            },
+            "retainedEarnings": {
+              "type": "string"
+            },
+            "otherLiabilities": {
+              "type": "string"
+            },
+            "goodwill": {
+              "type": "string"
+            },
+            "otherAssets": {
+              "type": "string"
+            },
+            "cash": {
+              "type": "string"
+            },
+            "totalCurrentLiabilities": {
+              "type": "string"
+            },
+            "shortTermDebt": {
+              "type": "string"
+            },
+            "currentLongTermDebt": {
+              "type": "string"
+            },
+            "otherShareholderEquity": {
+              "type": "string"
+            },
+            "propertyPlantEquipment": {
+              "type": "string"
+            },
+            "totalCurrentAssets": {
+              "type": "string"
+            },
+            "longTermInvestments": {
+              "type": "string"
+            },
+            "netTangibleAssets": {
+              "type": "string"
+            },
+            "shortTermInvestments": {
+              "type": "string"
+            },
+            "netReceivables": {
+              "type": "string"
+            },
+            "longTermDebt": {
+              "type": "string"
+            },
+            "inventory": {
+              "type": "string"
+            },
+            "accountsPayable": {
+              "type": "string"
+            },
+            "totalPermanentEquity": {
+              "type": "string"
+            },
+            "additionalPaidInCapital": {
+              "type": "string"
+            },
+            "commonStockTotalEquity": {
+              "type": "string"
+            },
+            "preferredStockTotalEquity": {
+              "type": "string"
+            },
+            "retainedEarningsTotalEquity": {
+              "type": "string"
+            },
+            "treasuryStock": {
+              "type": "string"
+            },
+            "accumulatedAmortization": {
+              "type": "string"
+            },
+            "otherNonCurrrentAssets": {
+              "type": "string"
+            },
+            "deferredLongTermAssetCharges": {
+              "type": "string"
+            },
+            "totalNonCurrentAssets": {
+              "type": "string"
+            },
+            "capitalLeaseObligations": {
+              "type": "string"
+            },
+            "totalLongTermDebt": {
+              "type": "string"
+            },
+            "otherNonCurrentLiabilities": {
+              "type": "string"
+            },
+            "totalNonCurrentLiabilities": {
+              "type": "string"
+            },
+            "negativeGoodwill": {
+              "type": "string"
+            },
+            "warrants": {
+              "type": "string"
+            },
+            "preferredStockRedeemable": {
+              "type": "string"
+            },
+            "capitalSurplus": {
+              "type": "string"
+            },
+            "liabilitiesAndShareholderEquity": {
+              "type": "string"
+            },
+            "cashAndShortTermInvestments": {
+              "type": "string"
+            },
+            "accumulatedDepreciation": {
+              "type": "string"
+            },
+            "commonStockSharesOutstanding": {
+              "type": "string"
+            }
+          }
+        }
+      },
+    "quarterlyReports": {
+      "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "fiscalDateEnding": {
+              "type": "string"
+            },
+            "reportedCurrency": {
+              "type": "string"
+            },
+            "totalAssets": {
+              "type": "string"
+            },
+            "intangibleAssets": {
+              "type": "string"
+            },
+            "earningAssets": {
+              "type": "string"
+            },
+            "otherCurrentAssets": {
+              "type": "string"
+            },
+            "totalLiabilities": {
+              "type": "string"
+            },
+            "totalShareholderEquity": {
+              "type": "string"
+            },
+            "deferredLongTermLiabilities": {
+              "type": "string"
+            },
+            "otherCurrentLiabilities": {
+              "type": "string"
+            },
+            "commonStock": {
+              "type": "string"
+            },
+            "retainedEarnings": {
+              "type": "string"
+            },
+            "otherLiabilities": {
+              "type": "string"
+            },
+            "goodwill": {
+              "type": "string"
+            },
+            "otherAssets": {
+              "type": "string"
+            },
+            "cash": {
+              "type": "string"
+            },
+            "totalCurrentLiabilities": {
+              "type": "string"
+            },
+            "shortTermDebt": {
+              "type": "string"
+            },
+            "currentLongTermDebt": {
+              "type": "string"
+            },
+            "otherShareholderEquity": {
+              "type": "string"
+            },
+            "propertyPlantEquipment": {
+              "type": "string"
+            },
+            "totalCurrentAssets": {
+              "type": "string"
+            },
+            "longTermInvestments": {
+              "type": "string"
+            },
+            "netTangibleAssets": {
+              "type": "string"
+            },
+            "shortTermInvestments": {
+              "type": "string"
+            },
+            "netReceivables": {
+              "type": "string"
+            },
+            "longTermDebt": {
+              "type": "string"
+            },
+            "inventory": {
+              "type": "string"
+            },
+            "accountsPayable": {
+              "type": "string"
+            },
+            "totalPermanentEquity": {
+              "type": "string"
+            },
+            "additionalPaidInCapital": {
+              "type": "string"
+            },
+            "commonStockTotalEquity": {
+              "type": "string"
+            },
+            "preferredStockTotalEquity": {
+              "type": "string"
+            },
+            "retainedEarningsTotalEquity": {
+              "type": "string"
+            },
+            "treasuryStock": {
+              "type": "string"
+            },
+            "accumulatedAmortization": {
+              "type": "string"
+            },
+            "otherNonCurrrentAssets": {
+              "type": "string"
+            },
+            "deferredLongTermAssetCharges": {
+              "type": "string"
+            },
+            "totalNonCurrentAssets": {
+              "type": "string"
+            },
+            "capitalLeaseObligations": {
+              "type": "string"
+            },
+            "totalLongTermDebt": {
+              "type": "string"
+            },
+            "otherNonCurrentLiabilities": {
+              "type": "string"
+            },
+            "totalNonCurrentLiabilities": {
+              "type": "string"
+            },
+            "negativeGoodwill": {
+              "type": "string"
+            },
+            "warrants": {
+              "type": "string"
+            },
+            "preferredStockRedeemable": {
+              "type": "string"
+            },
+            "capitalSurplus": {
+              "type": "string"
+            },
+            "liabilitiesAndShareholderEquity": {
+              "type": "string"
+            },
+            "cashAndShortTermInvestments": {
+              "type": "string"
+            },
+            "accumulatedDepreciation": {
+              "type": "string"
+            },
+            "commonStockSharesOutstanding": {
+              "type": "string"
+            }
+          }
+        }
+      }
+  }
+}

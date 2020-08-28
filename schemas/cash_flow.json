@@ -1,0 +1,166 @@
+{"$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+      "symbol": {"type":  "string"} ,
+      "annualReports": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+             "fiscalDateEnding": {
+              "type": "string"
+            },
+            "reportedCurrency": {
+              "type": "string"
+            },
+            "investments": {
+              "type": "string"
+            },
+            "changeInLiabilities": {
+              "type": "string"
+            },
+            "cashflowFromInvestment": {
+              "type": "string"
+            },
+            "otherCashflowFromInvestment": {
+              "type": "string"
+            },
+            "netBorrowings": {
+              "type": "string"
+            },
+            "cashflowFromFinancing": {
+              "type": "string"
+            },
+            "otherCashflowFromFinancing": {
+              "type": "string"
+            },
+            "changeInOperatingActivities": {
+              "type": "string"
+            },
+            "netIncome": {
+              "type": "string"
+            },
+            "changeInCash": {
+              "type": "string"
+            },
+            "operatingCashflow": {
+              "type": "string"
+            },
+            "otherOperatingCashflow": {
+              "type": "string"
+            },
+            "depreciation": {
+              "type": "string"
+            },
+            "dividendPayout": {
+              "type": "string"
+            },
+            "stockSaleAndPurchase": {
+              "type": "string"
+            },
+            "changeInInventory": {
+              "type": "string"
+            },
+            "changeInAccountReceivables": {
+              "type": "string"
+            },
+            "changeInNetIncome": {
+              "type": "string"
+            },
+            "capitalExpenditures": {
+              "type": "string"
+            },
+            "changeInReceivables": {
+              "type": "string"
+            },
+            "changeInExchangeRate": {
+              "type": "string"
+            },
+            "changeInCashAndCashEquivalents": {
+              "type": "string"
+            }
+          }
+        }
+      },
+    "quarterlyReports": {
+      "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+             "fiscalDateEnding": {
+              "type": "string"
+            },
+            "reportedCurrency": {
+              "type": "string"
+            },
+            "investments": {
+              "type": "string"
+            },
+            "changeInLiabilities": {
+              "type": "string"
+            },
+            "cashflowFromInvestment": {
+              "type": "string"
+            },
+            "otherCashflowFromInvestment": {
+              "type": "string"
+            },
+            "netBorrowings": {
+              "type": "string"
+            },
+            "cashflowFromFinancing": {
+              "type": "string"
+            },
+            "otherCashflowFromFinancing": {
+              "type": "string"
+            },
+            "changeInOperatingActivities": {
+              "type": "string"
+            },
+            "netIncome": {
+              "type": "string"
+            },
+            "changeInCash": {
+              "type": "string"
+            },
+            "operatingCashflow": {
+              "type": "string"
+            },
+            "otherOperatingCashflow": {
+              "type": "string"
+            },
+            "depreciation": {
+              "type": "string"
+            },
+            "dividendPayout": {
+              "type": "string"
+            },
+            "stockSaleAndPurchase": {
+              "type": "string"
+            },
+            "changeInInventory": {
+              "type": "string"
+            },
+            "changeInAccountReceivables": {
+              "type": "string"
+            },
+            "changeInNetIncome": {
+              "type": "string"
+            },
+            "capitalExpenditures": {
+              "type": "string"
+            },
+            "changeInReceivables": {
+              "type": "string"
+            },
+            "changeInExchangeRate": {
+              "type": "string"
+            },
+            "changeInCashAndCashEquivalents": {
+              "type": "string"
+            }
+          }
+        }
+      }
+  }
+}
